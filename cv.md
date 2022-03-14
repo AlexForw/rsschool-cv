@@ -43,3 +43,7 @@ function checkWinCross(){
     })
 }
 ```
+# Education
+* **RS School**
+* **The Odin project**
+
