@@ -47,3 +47,6 @@ function checkWinCross(){
 * **RS School**
 * **The Odin project**
 
+# Languages
+* **Russian** - native speaker.
+* **English** - B1 (B2 in process...)
