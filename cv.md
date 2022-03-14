@@ -15,3 +15,31 @@ I am 19 years old. Interesting tasks it's my weakness, a lot of time I spend on 
     * Ready to help other people
     * Team playing
     * Hard-working
+
+# Skills
+* HTML/CSS
+* JavaScript 
+* Git/GitHub
+* Avocode, Zeplin, Figma
+
+# Code Examples
+It is last function which I was written(function from Tic Tac Toe game)
+```
+function checkWinCross(){
+
+    return winCombination.some(comb => {
+        let combination = comb.every(i =>cellElem[i].classList.contains('crossCell'))
+        if(combination){
+            comb.forEach((item)=>{
+                cellElem[item].classList.add('winCombinationStyle')
+            })
+            
+            cellElem.forEach(item =>{
+                item.classList.remove('hover')
+                item.removeEventListener('click', clicker)
+            })
+        }
+        return combination
+    })
+}
+```
