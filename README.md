@@ -1,2 +1,1 @@
-# rsschool-cv
-CV
+[CV](https://alexforw.github.io/rsschool-cv/cv)
